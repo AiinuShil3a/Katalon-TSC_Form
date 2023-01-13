@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\Shil3\\AppData\\Local\\Temp\\Katalon\\Test Cases\\TC_Form-2\\20230104_104604\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\Shil3\\AppData\\Local\\Temp\\Katalon\\Test Cases\\TC-1001_Make-appointment - Copy\\20230113_110832\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/TC_Form-2', new TestCaseBinding('Test Cases/TC_Form-2',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/TC-1001_Make-appointment - Copy', new TestCaseBinding('Test Cases/TC-1001_Make-appointment - Copy',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

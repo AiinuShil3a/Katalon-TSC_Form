@@ -14,11 +14,11 @@ import internal.GlobalVariable as GlobalVariable
 
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
-suiteProperties.put('id', 'Test Suites/TS002_Form')
-suiteProperties.put('name', 'TS002_Form')
+suiteProperties.put('id', 'Test Suites/TSMA-001_MakeAppointment')
+suiteProperties.put('name', 'TSMA-001_MakeAppointment')
 suiteProperties.put('description', '')
-suiteProperties.put('rerunTestFailImmediately', 'true')
-suiteProperties.put('retryCount', '3')
+suiteProperties.put('rerunTestFailImmediately', 'false')
+suiteProperties.put('retryCount', '0')
  
 
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.t
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\Shil3\\Katalon Studio\\TestingKatalon\\Reports\\20230104_105222\\TS002_Form\\20230104_105233\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\Shil3\\Katalon Studio\\TestingKatalon\\Reports\\20230113_111457\\TSMA-001_MakeAppointment\\20230113_111457\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/TS002_Form', suiteProperties, new File("C:\\Users\\Shil3\\Katalon Studio\\TestingKatalon\\Reports\\20230104_105222\\TS002_Form\\20230104_105233\\testCaseBinding"))
+TestCaseMain.startTestSuite('Test Suites/TSMA-001_MakeAppointment', suiteProperties, new File("C:\\Users\\Shil3\\Katalon Studio\\TestingKatalon\\Reports\\20230113_111457\\TSMA-001_MakeAppointment\\20230113_111457\\testCaseBinding"))
